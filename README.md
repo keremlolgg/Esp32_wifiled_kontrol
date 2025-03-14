@@ -1,7 +1,7 @@
 # Esp32_wifiled_kontrol
 
 ## ESP32 ile Express.js Kullanarak Işık Kontrolü
-ESP32 geliştirme kartını kullanarak uzaktan ışık kontrolü sağlayan bir proje.
+ESP32 geliştirme kartını kullanarak uzaktan ışık kontrolü sağlayan bir proje. Çok basit şekilde get isteği atarak sunucudan ışık durumunu çekerek kontrol ediyor sunucuya biraz fazla yük bindiriyor websocket kullanılırsa daha iyi olur fakat glitch desteklemediği için get komutu ile çektim 3-5 saniye arasında get atarsa biraz gecikme olur ama sunucuya fazla yük binmez.
 ### Express.js Kodu
 Aşağıdaki kod, Express.js kullanarak bir sunucu oluşturur ve ışık kontrolü için API sağlar.
 Sunucu ile uğraşmamak için direkt glitch projesini remixleyebilirsiniz.
